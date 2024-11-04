@@ -2,7 +2,11 @@
 Robotics project for solving the Tower of Hanoi problem both algorithmically and with user input.
 
 ## Instructions:
-Clone repository into ```'~/workspaces'.```
+Create a directory for the final project in the VM, inside workspaces: 
+```
+mkdir -p ~/workspaces/final-project
+```
+Clone repository into ```'~/workspaces/final-project'.```
 
 When modifying code, do it on your branch (not ```main```). To create a branch:
 ```
@@ -15,7 +19,9 @@ git add .
 git commit -m "<description of commit here>"
 git push
 ```
-One note: '.' adds all modified files. You can also specify individual files in place of the '.' to commit specific changes.
+'.' adds all modified files. You can also specify individual files in place of the '.' to commit specific changes.
+
+Note that only files in the ```'/src'``` folder will be included to prevent issues (ignores changes made to ```'/build'```, ```'/log'```, and ```'/install'```).
 
 When you are ready to merge your branch to the public ```main``` branch, you can make a pull request. Make sure you have pulled all of the previous changes to main onto your local machine:
 ```
